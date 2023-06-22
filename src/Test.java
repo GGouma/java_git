@@ -45,6 +45,43 @@ class Grade {
 		}
 	}
 
+class TV2 {
+	String brand;
+	int year;
+	int inch;
+	
+	TV2(String brand, int year, int inch){
+		this.brand = brand;
+		this.year = year;
+		this.inch = inch;
+	}
+	
+	void show() {
+		System.out.println(brand + "에서 만든" + year + "년형" + inch + "인치 TV");
+	}
+	
+}
+
+class Song2 {
+	String title;
+	String artist;
+	String country;
+	int year;
+	
+	Song2() {}
+	
+	Song2(String title, String artist, String country, int year) {
+		this.title = title;
+		this.artist = artist;
+		this.country = country;
+		this.year = year;
+	}
+		
+	void show() {
+		System.out.println(year + "년" + country + "국적의" + artist + "가 부른" + title);
+	}
+	
+}
 
 public class Test {
 
@@ -63,6 +100,12 @@ public class Test {
 		kim.setGrade(80, 70, 54);
 		System.out.println(kim.getAvg());
 		System.out.println(kim.getGrade());
+		
+		TV2 myTV2 = new TV2("LG", 2017, 32);
+		myTV2.show();
+		
+		Song2 song2 = new Song2("Dancing Queen", "ABBA", "스웨덴", 1978);
+		song2.show();
 	}
 
 }
