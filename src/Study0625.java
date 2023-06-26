@@ -1,13 +1,10 @@
 import java.util.Scanner;
 
-class Grade4 {
-	String name;
-	int kor;
-	int eng;
-	int math;
+class Grade3 {
+	private String name;
+	private int kor, eng, math;
 	
-	
-	public Grade4(String name, int kor, int eng, int math) {
+	public Grade3(String name, int kor, int eng, int math) {
 		this.name = name;
 		this.kor = kor;
 		this.eng = eng;
@@ -19,8 +16,7 @@ class Grade4 {
 	}
 	
 	public void showInfo() {
-		System.out.println(name + "님의 평균은" + getAvg()+ "성적은" + getGrade() + "입니다.");
-		
+		System.out.println(name + "님의 평균은" + getAvg() + "성적은" + getGrade() + "입니다.");;
 	}
 	
 	public char getGrade() {
@@ -29,31 +25,34 @@ class Grade4 {
 		
 		if (avg >= 90) {
 			ch = '수';
-		}else if (avg >= 80) {
+		}
+		else if (avg >= 80) {
 			ch = '우';
-		}else if (avg >= 70) {
+		}
+		else if (avg >= 70) {
 			ch = '미';
-		}else if (avg >= 60) {
+		}
+		else if (avg >= 60) {
 			ch = '양';
-		}else {
+		}
+		else {
 			ch = '가';
 		}
-		return ch;
 		
+		return ch;
 	}
-	
 }
 
-class AAAAAAAA {
+public class Study0625 {
+	
 	public static void main(String[] args) {
 		Scanner sc = null;
-		Grade4 grade = null;
-		int kor;
-		int eng;
-		int math;
+		Grade3 grade = null;
+		int kor, eng, math;
 		String name;
 		
-		while(true) {
+		
+		while (true) {
 			sc = new Scanner(System.in);
 			
 			System.out.print("이름 : ");
@@ -68,13 +67,13 @@ class AAAAAAAA {
 			System.out.print("수학 : ");
 			math = sc.nextInt();
 			
-			grade = new Grade4(name, kor, eng, math);
+			grade = new Grade3(name, kor, eng, math);
 			grade.showInfo();
 			
 			System.out.print("계속?");
 			String choice = sc.next();
 			
-			if(choice.compareToIgnoreCase("yes") == 0 || choice.compareToIgnoreCase("y") == 0)
+			if (choice.compareToIgnoreCase("yes") == 0 || choice.compareToIgnoreCase("y") == 0)
 				continue;
 			else
 				break;
