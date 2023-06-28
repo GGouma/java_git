@@ -1,4 +1,4 @@
-package edu.global.two;
+package edu.global.prj.shape;
 
 public class Circle extends Shape {
 	private double radius;
@@ -7,6 +7,8 @@ public class Circle extends Shape {
 		radius = rad;
 	}
 	
+	
+	@Override
 	public double getArea() {
 		return radius * radius * Math.PI;
 	}

@@ -7,6 +7,10 @@ class MobilePhone {
 	public void answer() {
 		System.out.println("Hi~ from " + number);
 	}
+	
+	public void playApp() {
+		
+	}
 }
 
 class SmartPhone extends MobilePhone {
