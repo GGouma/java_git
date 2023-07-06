@@ -104,11 +104,16 @@ class GetSum {
 	}
 }
 
-/*
- * class Gugudan { void printGugu(int num) { for(int i = 1; i <= num; i++) {
- * for(int j = 1; j <= 9; j++) { System.out.println(i + "*" + j + "=" + (i*j));
- * } } } }
- */
+
+class Gugudan {
+	void printGugu(int num) {
+		for (int i = 1; i <= num; i++) {
+			for (int j = 1; j <= 9; j++) {
+				System.out.println(i + "*" + j + "=" + (i * j));
+			}
+		}
+	}
+}
 
 
 
