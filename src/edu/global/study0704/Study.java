@@ -51,7 +51,7 @@ public class Study {
 //		catch(IOException e) {
 //			e.printStackTrace();
 //		}
-		
+//		//파일복사
 //		 Scanner sc = new Scanner(System.in);
 //	        System.out.print("대상 파일: ");
 //	        String src = sc.nextLine();
