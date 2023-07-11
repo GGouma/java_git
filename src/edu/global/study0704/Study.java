@@ -39,18 +39,18 @@ public class Study {
 		   catch(IOException e) {
 		      e.printStackTrace();
 		   }
-//		try(Writer out = new FileWriter("data1.txt")) {
-//			for(char ch = 'A'; ch <= 'Z'; ch++) {
-//				
-//				
-//				out.write(ch);
-//				
-//			}
-//			
-//		}
-//		catch(IOException e) {
-//			e.printStackTrace();
-//		}
+		try(Writer out = new FileWriter("data1.txt")) {
+			for(char ch = 'A'; ch <= 'Z'; ch++) {
+				
+				
+				out.write(ch);
+				
+			}
+			
+		}
+		catch(IOException e) {
+			e.printStackTrace();
+		}
 //		//파일복사
 //		 Scanner sc = new Scanner(System.in);
 //	        System.out.print("대상 파일: ");
