@@ -2,8 +2,8 @@ package edu.global.prj.noticeboard;
 
 public class BoardCommand {
 	
-	private int totalNum;	// 전체 글번호
-	private int num;		// 현재 글번호
+	private int totalNum;	
+	private int num;		
 	private String title;
 	private String content;
 	private String name;

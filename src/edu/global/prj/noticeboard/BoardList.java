@@ -2,7 +2,7 @@ package edu.global.prj.noticeboard;
 
 import java.util.Scanner;
 
-public class BoardList implements BoardAction{
+public class BoardList implements BoardArray{
 	
 	@Override
 	public BoardCommand execute(Scanner sc) {

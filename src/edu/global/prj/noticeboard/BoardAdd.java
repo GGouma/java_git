@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class BoardAdd implements BoardAction{
+public class BoardAdd implements BoardArray{
 	
 	private static final String FILE_DIRECTORY = "notice";
 	
