@@ -96,16 +96,16 @@ public class Test {
         System.out.println(num);
         
        
-//		Grade kim = new Grade();
-//		kim.setGrade(80, 70, 54);
-//		System.out.println(kim.getAvg());
-//		System.out.println(kim.getGrade());
-//		
-//		TV2 myTV2 = new TV2("LG", 2017, 32);
-//		myTV2.show();
-//		
-//		Song2 song2 = new Song2("Dancing Queen", "ABBA", "스웨덴", 1978);
-//		song2.show();
+		Grade kim = new Grade();
+		kim.setGrade(80, 70, 54);
+		System.out.println(kim.getAvg());
+		System.out.println(kim.getGrade());
+		
+		TV2 myTV2 = new TV2("LG", 2017, 32);
+		myTV2.show();
+		
+		Song2 song2 = new Song2("Dancing Queen", "ABBA", "스웨덴", 1978);
+		song2.show();
 	}
 
 }
